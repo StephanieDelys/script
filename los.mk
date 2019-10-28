@@ -6,6 +6,8 @@ udo apt-get install bc bison build-essential ccache curl flex g++-multilib gcc-m
 repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
 repo sync -j8
 
+mkdir -p .repo/local_manifests
+
 nano .repo/local_manifests/roomservice.xml
 
 <?xml version="1.0" encoding="UTF-8"?>
