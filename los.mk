@@ -14,7 +14,7 @@ nano .repo/local_manifests/roomservice.xml
  <manifest>
  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
  <project name="PixelExperience/prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="github" revision="pie" />
- <project name="MyCats/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="lineage-16.0-uo" />
+ <project name="MyCats/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="lineage-16.0" />
  <project name="dopaemon/whyred path="kernel/xiaomi/whyred" remote="github" revision="android" />
  <project name="MyCats/android_vendor_xiaomi_whyred" path="vendor/xiaomi/whyred" remote="github" revision="lineage-16.0" />
  <project name="MyCats/android_vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="lineage-16.0" />
