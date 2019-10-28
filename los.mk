@@ -17,7 +17,7 @@ nano .repo/local_manifests/roomservice.xml
  <project name="MyCats/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="lineage-16.0" />
  <project name="dopaemon/whyred path="kernel/xiaomi/whyred" remote="github" revision="android" />
  <project name="MyCats/android_vendor_xiaomi_whyred" path="vendor/xiaomi/whyred" remote="github" revision="lineage-16.0" />
- <project name="KCUFRom/android_vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="tq" />
+ <project name="PixelExperience-Devices/vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="pie-whyred" />
  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0" />
  </manifest>
  
