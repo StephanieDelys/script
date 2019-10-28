@@ -32,3 +32,25 @@ nano .repo/local_manifests/roomservice.xml
  . build/envsetup.sh
  lunch lineage_whyred-userdebug
  mka -j8 otapackage
+ 
+ PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=9
+TARGET_PRODUCT=aosp_f8331
+TARGET_BUILD_VARIANT=eng
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=kryo
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-a
+TARGET_2ND_CPU_VARIANT=kryo
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-4.19.53-gentoo-op-x86_64-Debian-GNU/Linux-9-(stretch)
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=PQ3A.190801.002
+OUT_DIR=out
