@@ -1,0 +1,21 @@
+Upload File Lên Google Drive Từ VPS
+
+cd ~/
+
+wget https://docs.google.com/uc?id=0B3X9GlR6EmbnWksyTEtCM0VfaFE&export=download
+
+mv uc\?id\=0B3X9GlR6EmbnWksyTEtCM0VfaFE gdrive
+
+chmod +x gdrive
+
+sudo install gdrive /usr/local/bin/gdrive
+
+gdrive list
+
+Copy Link Này Sau Đó Past Lên Google Để Xác Nhận Đây Là Bạn
+
+Sau Đó Dùng Lệnh :
+
+gdrive file.xxx
+
+để upload lên google drive
